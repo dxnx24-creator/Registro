@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+
+<body class="body">
+    <div class="contenedorprincipal">
+        <form action="procesar_formulario.php" method="post">
+            <h1>Registrate</h1>
+            <p>¡Gracias por contar con Nosotros!</p>
+            <div class="otraclase">
+                <label for="nombre">Nombre Completo:</label><br>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo" required><br><br>
+
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" name="email" id="email" placeholder="Correo" required><br><br>
+
+                <label for="pais">País:</label>
+                <select name="pais" id="pais" required>
+                    <option value="colombia">Colombia</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="peru">Perú</option>
+                    <option value="chile">Chile</option>
+                    <option value="ecuador">Ecuador</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="paraguay">Paraguay</option>
+                    <option value="bolivia">Bolivia</option>
+                    <option value="venezuela">Venezuela</option>
+                </select><br><br>
+
+                <button type="submit">Volver</button>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

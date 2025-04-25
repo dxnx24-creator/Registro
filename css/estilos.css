@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(to right, #252425, #2575fc);
+    font-family: Arial, sans-serif;
+}
+.otraclase {
+    margin: 0 auto;
+    max-width: 960px;
+    background-image: url(/img/descarga.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto 20px auto;
+    max-width: 800px;
+}
+
+div {
+    background-image: url(/img/abstract-3291293_640.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+button {
+    border-radius: 8px;
+    background-color: rgb(11, 141, 255);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    transition: border 0.5s;
+    outline: none;
+}
+
+input:focus {
+    border: 3px solid #555;
+}
+
+.contenedorprincipal {
+    width: 300px;
+    height: 440px;
+    padding: 20px;
+    text-align: center;
+    margin: 130px auto 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
